@@ -1,0 +1,146 @@
+*{
+    font-family: Arial;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+header{
+    display:flex;
+    justify-content:center;
+}
+
+
+/*CABEÇALHO*/
+
+.header_black{
+    width:100%;
+    height: 30px;
+    color:white;
+    background-color: rgb(43, 41, 41);
+    display:flex;
+    justify-content: center;
+}
+.container{
+    width:1100px;
+    display:flex;
+    justify-content: space-between;
+}
+.header_black_left{
+    float:left;
+    font-size:13px;
+    margin-top:7px;
+}
+.header_black_right{
+    display:flex;
+}
+.icone{
+    width:20px;
+    height: 20px;
+    background-color: white;
+    margin:5px;
+}
+#face,#insta,#twitter{
+    width:20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+
+
+
+.header_white{
+    height: 90px;
+    width: 100%;
+    display:flex;
+    position:relative;
+}
+.logo,#logo{
+    width:90px;
+    height: 90px;
+    object-fit: cover;
+}
+h1{
+    font-size:25px;
+    font-weight: 400;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+h3{
+    font-size: 14px;
+    color:grey;
+    font-weight: 400;
+    padding-top:0px;
+    margin-top: 0px;
+}
+.header_white_right{
+    display:flex;
+    position:absolute;
+    right:0;
+    width:400px;
+    padding-top:20px;
+}
+.tel,#tel,.email,#email{
+    width:40px;
+    height: 40px;
+    object-fit: cover;
+}
+.tel,.email{
+    display:flex;
+    flex-direction: row;
+    width:220px;
+}
+.infos{
+    display:flex;
+    flex-direction: column;
+}
+h4{
+    font-size: 12px;
+    color:grey;
+    margin-top:5px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+h2{
+    font-size:16px;
+    margin-top:0px;
+    padding-top: 0px;
+}
+ul li,nav li{
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    margin:0px;
+}
+
+
+
+
+
+.menu{
+    display:flex;
+    height: 80px;
+    justify-content: center;
+    width:1100px;
+    background-color: rgb(255, 187, 0);
+}
+.options{
+    display: flex;
+    justify-content: center;
+}
+ul a,li a{
+    display:block;
+    padding:30px;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    flex:1;
+}
+ul{
+    display:flex;
+    margin:0px;
+    padding:0px;
+}
+ ul, li{
+    display:flex;
+}
